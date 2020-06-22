@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  color: aliceblue;
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.ButtonContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 500px) {
+  .App {
+    width: 90%;
+  }
+  img {
+    width: 60px;
+    height: 60px;
+  }
+  .ButtonContainer {
+    width: 300px;
+  }
+}
+
+@media (max-width: 340px) {
+  img {
+    width: 50px;
+    height: 50px;
+  }
+  .ButtonContainer {
+    width: 250px;
+  }
+}
